@@ -134,32 +134,32 @@
 
 
 
-const studentsArray = [
-    {
-        name: 'Armen',
-        age: 20,
-        gpa: 3,
-        grades: [1,50,30,55,88,100]
-    },
-    {
-        name: 'Anna',
-        age: 28,
-        gpa: 4,
-        grades: [1,3,5,7]
-    },
-    {
-       name: 'Kim',
-        age: 24,
-        gpa: 1,
-        grades: [6,88,5,99]
-    }
-]
+// const studentsArray = [
+//     {
+//         name: 'Armen',
+//         age: 20,
+//         gpa: 3,
+//         grades: [1,50,30,55,88,100]
+//     },
+//     {
+//         name: 'Anna',
+//         age: 28,
+//         gpa: 4,
+//         grades: [1,3,5,7]
+//     },
+//     {
+//        name: 'Kim',
+//         age: 24,
+//         gpa: 1,
+//         grades: [6,88,5,99]
+//     }
+// ]
 
 
 // let even = studentsArray.map(e=>e.gpa)
 // console.log(every(even),(it,ind,arr)=>{it>2});
 
-let arr = studentsArray.map(e=>e.grades)
-let arr1 = arr.map(e=>e.reduce((a,b)=>(a+b)/length))
+// let arr = studentsArray.map(e=>e.grades)
+// let arr1 = arr.map(e=>e.reduce((a,b)=>(a+b)/length))
 
-console.log(arr1);
+// console.log(arr1);
